@@ -1,0 +1,42 @@
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\bin\Debug\Project1.exe.config
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\bin\Debug\Project1.exe
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\bin\Debug\Project1.pdb
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.MailOrder.resources
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.exe
+C:\Users\Justin\Dropbox\` Fall Semester 2016 - Georgian\RAD\Project1\Project1\obj\Debug\Project1.pdb
+C:\Users\Justin\Dropbox\Fall_2016\RAD\Project1\Project1\bin\Debug\Project1.exe.config
+C:\Users\Justin\Dropbox\Fall_2016\RAD\Project1\Project1\obj\Debug\Project1.exe
+C:\Users\Justin\Dropbox\Fall_2016\RAD\Project1\Project1\obj\Debug\Project1.pdb
+E:\Project1\Project1\Project1\bin\Debug\Project1.exe.config
+E:\Project1\Project1\Project1\obj\Debug\Project1.exe
+E:\Project1\Project1\Project1\obj\Debug\Project1.pdb
+E:\Project1\Project1\Project1\bin\Debug\Project1.exe
+E:\Project1\Project1\Project1\bin\Debug\Project1.pdb
+E:\Project1\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+E:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.resources
+E:\Project1\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
+E:\Project1\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
+E:\Project1\Project1\Project1\bin\Debug\en-CA\Project1.resources.dll
+E:\Project1\Project1\Project1\bin\Debug\fr-CA\Project1.resources.dll
+E:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.en-CA.resources
+E:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.fr-CA.resources
+E:\Project1\Project1\Project1\obj\Debug\en-CA\Project1.resources.dll
+E:\Project1\Project1\Project1\obj\Debug\fr-CA\Project1.resources.dll
+D:\Project1\Project1\Project1\bin\Debug\Project1.exe.config
+D:\Project1\Project1\Project1\bin\Debug\Project1.exe
+D:\Project1\Project1\Project1\bin\Debug\Project1.pdb
+D:\Project1\Project1\Project1\bin\Debug\en-CA\Project1.resources.dll
+D:\Project1\Project1\Project1\bin\Debug\fr-CA\Project1.resources.dll
+D:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.resources
+D:\Project1\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
+D:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.en-CA.resources
+D:\Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.fr-CA.resources
+D:\Project1\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
+D:\Project1\Project1\Project1\obj\Debug\en-CA\Project1.resources.dll
+D:\Project1\Project1\Project1\obj\Debug\fr-CA\Project1.resources.dll
+D:\Project1\Project1\Project1\obj\Debug\Project1.exe
+D:\Project1\Project1\Project1\obj\Debug\Project1.pdb
+D:\Project1\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
