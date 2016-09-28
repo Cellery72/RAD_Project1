@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MailOrder));
             this.LanguageGroupBox = new System.Windows.Forms.GroupBox();
             this.FrenchRadioButton = new System.Windows.Forms.RadioButton();
@@ -46,15 +47,17 @@
             this.NextButton = new System.Windows.Forms.Button();
             this.LogoPictureBox = new System.Windows.Forms.PictureBox();
             this.HoursWorkedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.LanguageGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // LanguageGroupBox
             // 
-            resources.ApplyResources(this.LanguageGroupBox, "LanguageGroupBox");
             this.LanguageGroupBox.Controls.Add(this.FrenchRadioButton);
             this.LanguageGroupBox.Controls.Add(this.EnglishRadioButton);
+            resources.ApplyResources(this.LanguageGroupBox, "LanguageGroupBox");
             this.LanguageGroupBox.Name = "LanguageGroupBox";
             this.LanguageGroupBox.TabStop = false;
             // 
@@ -84,11 +87,13 @@
             // 
             resources.ApplyResources(this.EmployeeIDTextBox, "EmployeeIDTextBox");
             this.EmployeeIDTextBox.Name = "EmployeeIDTextBox";
+            this.EmployeeIDTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.EmployeeIDTextBox_KeyPress);
             // 
             // TotalMonthlySalesTextBox
             // 
             resources.ApplyResources(this.TotalMonthlySalesTextBox, "TotalMonthlySalesTextBox");
             this.TotalMonthlySalesTextBox.Name = "TotalMonthlySalesTextBox";
+            this.TotalMonthlySalesTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.TotalMonthlySalesTextBox_Validating);
             // 
             // SalesBonusTextBox
             // 
@@ -144,8 +149,8 @@
             // 
             // LogoPictureBox
             // 
-            resources.ApplyResources(this.LogoPictureBox, "LogoPictureBox");
             this.LogoPictureBox.Image = global::Project1.Properties.Resources.rad;
+            resources.ApplyResources(this.LogoPictureBox, "LogoPictureBox");
             this.LogoPictureBox.Name = "LogoPictureBox";
             this.LogoPictureBox.TabStop = false;
             // 
@@ -153,6 +158,12 @@
             // 
             resources.ApplyResources(this.HoursWorkedTextBox, "HoursWorkedTextBox");
             this.HoursWorkedTextBox.Name = "HoursWorkedTextBox";
+            this.HoursWorkedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HoursWorkedTextBox_KeyPress);
+            this.HoursWorkedTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.HoursWorkedTextBox_Validating);
+            // 
+            // ErrorProvider
+            // 
+            this.ErrorProvider.ContainerControl = this;
             // 
             // MailOrder
             // 
@@ -178,6 +189,7 @@
             this.LanguageGroupBox.ResumeLayout(false);
             this.LanguageGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,6 +214,7 @@
         private System.Windows.Forms.Button NextButton;
         private System.Windows.Forms.PictureBox LogoPictureBox;
         private System.Windows.Forms.MaskedTextBox HoursWorkedTextBox;
+        private System.Windows.Forms.ErrorProvider ErrorProvider;
     }
 }
 
