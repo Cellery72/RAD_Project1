@@ -1,13 +1,21 @@
-﻿using System;
+﻿/*
+ *  Application:   Mail Order Form
+ *       Author:   Justin Ellery
+ *         Date:   September 28th 2016
+ *  Description:   The Mail Order Form handles calculating the Sales Bonus of multiple employees in an organization
+ *                 based on the amount of hours they worked in relation to the monthly sales total.
+ */
+
+using System;
 using System.ComponentModel;
 using System.Globalization;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace MailOrder
 {
     public partial class MailOrder : Form
     {
+        private bool _BoolFirstEntry = true;    // represents whether or not it's the first employee we're entering
         public MailOrder()
         {
             InitializeComponent();
@@ -19,21 +27,33 @@ namespace MailOrder
         // Button Event Handlers
         private void CalculateButton_Click(object sender, EventArgs e)
         {
+            double output = CalculateValues();          // calculate values and store in double
+            if (output != -1)                           // assert we didn't get garbage value
+            {
+                SalesBonusTextBox.Text = output.ToString("C"); // populate textbox
+                TotalMonthlySalesTextBox.ReadOnly = true;   // set to read only after calculating
+                _BoolFirstEntry = false;
+            }
+            else
+                return;
 
         }
         private void PrintButton_Click(object sender, EventArgs e)
         {
+            // Display a messagebox to show the form has been sent to the printer
             MessageBox.Show("The form has been sent to the computer!","Print Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void NextButton_Click(object sender, EventArgs e)
         {            
-            if (validValues())  // assert there's valid values in the controls
+            if (_BoolFirstEntry)    // first time entering values, still haven't calculated once..
             {
-
+                ClearValues();  // clear all values + Total Monthly Sales
+                TotalMonthlySalesTextBox.Clear();
             }
-            else    // Values are stale, notify user, don't change to read only yet..
+            else
             {
-
+                // clear the values neccessary 
+                ClearValues();
             }
         }
         private void LanguageRBCheckedChanged(object sender, EventArgs e)
@@ -59,7 +79,9 @@ namespace MailOrder
         {
             // get local instance of the textbox and it's current value
             MaskedTextBox _HoursWorkedTB = (MaskedTextBox)sender;
-            int currentValue = int.Parse(_HoursWorkedTB.Text);
+            int currentValue = 0;
+            if (!String.IsNullOrEmpty(_HoursWorkedTB.Text))
+                currentValue = int.Parse(_HoursWorkedTB.Text);
 
             // assert value is valid
             if (currentValue > 160 || currentValue < 0)
@@ -69,7 +91,7 @@ namespace MailOrder
                 _HoursWorkedTB.Select(0, _HoursWorkedTB.Text.Length);
 
                 // Set the ErrorProvider error with the text to display. 
-                this.ErrorProvider.SetError(_HoursWorkedTB, "Value must be between 0-160");
+                ErrorProvider.SetError(_HoursWorkedTB, "Must be a valid value between 0-160");
             }
             else
                 ErrorProvider.Clear();
@@ -80,24 +102,32 @@ namespace MailOrder
             if (!(Char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
                 e.Handled = true;
         }
-
         private void TotalMonthlySalesTextBox_Validating(object sender, CancelEventArgs e)
         {
             // get local instance
             TextBox _TotalMonthlySalesTB = (TextBox)sender;
-
-
+            try
+            {
+                double currentValue = 0;
+                if (!String.IsNullOrEmpty(_TotalMonthlySalesTB.Text))
+                    currentValue = double.Parse(_TotalMonthlySalesTB.Text);
+                ErrorProvider.Clear();
+            }
+            catch(FormatException ex)
+            {
+                Console.WriteLine(ex);
+                e.Cancel = true;
+                _TotalMonthlySalesTB.Select(0, _TotalMonthlySalesTB.Text.Length);
+                ErrorProvider.SetError(_TotalMonthlySalesTB, "Must be a valid numeric value");
+            }
         }
-
-
-
-
+        
 
         // private methods 
         // ---------------
 
         /// <summary>
-        /// Function changes the current language at runtime by passing in a language variable 
+        /// Function changes the current language at runtime by passing in a language variable. 
         /// </summary>
         /// <param name="lang"></param>
         private void ChangeLanguage(string lang)
@@ -108,20 +138,44 @@ namespace MailOrder
                 resources.ApplyResources(c, c.Name, new CultureInfo(lang));
             }
         }
+        
         /// <summary>
-        /// Returns a value indicating whether the controls on the MailOrder form have valid values to be calculated
+        /// Calculates the Sales Bonus value based on the textbox values.
         /// </summary>
-        /// <returns>bool</returns>
-        private bool validValues()
+        /// <returns></returns>
+        private double CalculateValues()
         {
-            bool rValue = false;
-            // check hours worked isn't null or empty... validation will handle the value's between 0-160
+            double returnValue = -1;
 
+            try
+            {
+                // Parse the textboxes to doubles, perform calculations.
+                double hoursValue = (double.Parse(HoursWorkedTextBox.Text) / 160);
+                double monthSalesValue = (double.Parse(TotalMonthlySalesTextBox.Text) * 0.02);
+                returnValue = (hoursValue * monthSalesValue);
+                return returnValue;
+            }
+            catch(Exception ex)
+            {
+                // log the error and response with -1;
+                Console.WriteLine(ex);
+                return returnValue;
+            }
 
+        }
+        
+        /// <summary>
+        /// Clear all the values in the appropriate textboxes.
+        /// </summary>
+        private void ClearValues()
+        {
+            if (!_BoolFirstEntry)
+                NextButton.Text = "Next";
+            EmployeeNameTextBox.Clear();
+            EmployeeIDTextBox.Clear();
+            HoursWorkedTextBox.Clear();
+            SalesBonusTextBox.Clear();
 
-
-
-            return rValue;
         }
     }
 }

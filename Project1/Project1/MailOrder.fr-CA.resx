@@ -118,6 +118,90 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="HoursWorkedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 434</value>
+  </data>
+  <data name="HoursWorkedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 26</value>
+  </data>
+  <data name="NextButton.Text" xml:space="preserve">
+    <value>Prochain</value>
+  </data>
+  <data name="PrintButton.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="CalculateButton.Text" xml:space="preserve">
+    <value>Calculer</value>
+  </data>
+  <data name="SalesBonusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 532</value>
+  </data>
+  <data name="SalesBonusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="SalesBonusLabel.Text" xml:space="preserve">
+    <value>Bonus de vente:</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 483</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 20</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.Text" xml:space="preserve">
+    <value>Ventes mensuelles totales:</value>
+  </data>
+  <data name="HoursWorkedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 434</value>
+  </data>
+  <data name="HoursWorkedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="HoursWorkedLabel.Text" xml:space="preserve">
+    <value>Heures travaillées:</value>
+  </data>
+  <data name="EmployeeIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 389</value>
+  </data>
+  <data name="EmployeeIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 20</value>
+  </data>
+  <data name="EmployeeIDLabel.Text" xml:space="preserve">
+    <value>Identification de l'employé:</value>
+  </data>
+  <data name="EmployeeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 346</value>
+  </data>
+  <data name="EmployeeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="EmployeeNameLabel.Text" xml:space="preserve">
+    <value>Nom de l'employé:</value>
+  </data>
+  <data name="SalesBonusTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 532</value>
+  </data>
+  <data name="SalesBonusTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 26</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 483</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 26</value>
+  </data>
+  <data name="EmployeeIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 389</value>
+  </data>
+  <data name="EmployeeIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 26</value>
+  </data>
+  <data name="EmployeeNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 346</value>
+  </data>
+  <data name="EmployeeNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 26</value>
+  </data>
   <data name="FrenchRadioButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 25</value>
   </data>
@@ -129,89 +213,5 @@
   </data>
   <data name="LanguageGroupBox.Text" xml:space="preserve">
     <value>La Langue</value>
-  </data>
-  <data name="EmployeeNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 346</value>
-  </data>
-  <data name="EmployeeNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
-  </data>
-  <data name="EmployeeIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 389</value>
-  </data>
-  <data name="EmployeeIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 483</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
-  </data>
-  <data name="SalesBonusTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 532</value>
-  </data>
-  <data name="SalesBonusTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
-  </data>
-  <data name="EmployeeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 346</value>
-  </data>
-  <data name="EmployeeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
-  </data>
-  <data name="EmployeeNameLabel.Text" xml:space="preserve">
-    <value>Nom de l'employé:</value>
-  </data>
-  <data name="EmployeeIDLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 389</value>
-  </data>
-  <data name="EmployeeIDLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 20</value>
-  </data>
-  <data name="EmployeeIDLabel.Text" xml:space="preserve">
-    <value>Identification de l'employé:</value>
-  </data>
-  <data name="HoursWorkedLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 434</value>
-  </data>
-  <data name="HoursWorkedLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 20</value>
-  </data>
-  <data name="HoursWorkedLabel.Text" xml:space="preserve">
-    <value>Heures travaillées:</value>
-  </data>
-  <data name="TotalMonthlySalesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 483</value>
-  </data>
-  <data name="TotalMonthlySalesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 20</value>
-  </data>
-  <data name="TotalMonthlySalesLabel.Text" xml:space="preserve">
-    <value>Ventes mensuelles totales:</value>
-  </data>
-  <data name="SalesBonusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 532</value>
-  </data>
-  <data name="SalesBonusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 20</value>
-  </data>
-  <data name="SalesBonusLabel.Text" xml:space="preserve">
-    <value>Bonus de vente:</value>
-  </data>
-  <data name="CalculateButton.Text" xml:space="preserve">
-    <value>Calculer</value>
-  </data>
-  <data name="PrintButton.Text" xml:space="preserve">
-    <value>Imprimer</value>
-  </data>
-  <data name="NextButton.Text" xml:space="preserve">
-    <value>Prochain</value>
-  </data>
-  <data name="HoursWorkedTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 434</value>
-  </data>
-  <data name="HoursWorkedTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
   </data>
 </root>

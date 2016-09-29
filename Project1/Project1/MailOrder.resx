@@ -117,517 +117,649 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;FrenchRadioButton.Name" xml:space="preserve">
-    <value>FrenchRadioButton</value>
+  <data name="&gt;&gt;EmployeeIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FrenchRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TotalMonthlySalesLabel.Name" xml:space="preserve">
+    <value>TotalMonthlySalesLabel</value>
   </data>
-  <data name="&gt;&gt;FrenchRadioButton.Parent" xml:space="preserve">
-    <value>LanguageGroupBox</value>
-  </data>
-  <data name="&gt;&gt;FrenchRadioButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;EnglishRadioButton.Name" xml:space="preserve">
-    <value>EnglishRadioButton</value>
-  </data>
-  <data name="&gt;&gt;EnglishRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnglishRadioButton.Parent" xml:space="preserve">
-    <value>LanguageGroupBox</value>
-  </data>
-  <data name="&gt;&gt;EnglishRadioButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="EmployeeIDTextBox.Error" xml:space="preserve">
+    <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LanguageGroupBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="LanguageGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 238</value>
-  </data>
   <data name="LanguageGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 61</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LanguageGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LanguageGroupBox.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;LanguageGroupBox.Name" xml:space="preserve">
-    <value>LanguageGroupBox</value>
-  </data>
-  <data name="&gt;&gt;LanguageGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LanguageGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LanguageGroupBox.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="FrenchRadioButton.AutoSize" type="System.Boolean, mscorlib">
+  <data name="TotalMonthlySalesLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="FrenchRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 25</value>
+  <data name="&gt;&gt;EmployeeNameTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="FrenchRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 24</value>
-  </data>
-  <data name="FrenchRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="FrenchRadioButton.Text" xml:space="preserve">
-    <value>Français</value>
-  </data>
-  <data name="&gt;&gt;FrenchRadioButton.Name" xml:space="preserve">
-    <value>FrenchRadioButton</value>
-  </data>
-  <data name="&gt;&gt;FrenchRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FrenchRadioButton.Parent" xml:space="preserve">
-    <value>LanguageGroupBox</value>
-  </data>
-  <data name="&gt;&gt;FrenchRadioButton.ZOrder" xml:space="preserve">
+  <data name="FrenchRadioButton.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="EnglishRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="EnglishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="EnglishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 24</value>
-  </data>
-  <data name="EnglishRadioButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="CalculateButton.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="HoursWorkedLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
   <data name="EnglishRadioButton.Text" xml:space="preserve">
     <value>English</value>
   </data>
-  <data name="&gt;&gt;EnglishRadioButton.Name" xml:space="preserve">
-    <value>EnglishRadioButton</value>
+  <data name="FrenchRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;EnglishRadioButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;EmployeeNameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PrintButton.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="EmployeeNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesTextBox.Name" xml:space="preserve">
+    <value>TotalMonthlySalesTextBox</value>
+  </data>
+  <data name="EmployeeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 346</value>
+  </data>
+  <data name="HoursWorkedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="&gt;&gt;LogoPictureBox.Name" xml:space="preserve">
+    <value>LogoPictureBox</value>
+  </data>
+  <data name="&gt;&gt;EmployeeNameLabel.Name" xml:space="preserve">
+    <value>EmployeeNameLabel</value>
+  </data>
+  <data name="SalesBonusLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EmployeeNameTextBox.Name" xml:space="preserve">
+    <value>EmployeeNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;HoursWorkedLabel.Name" xml:space="preserve">
+    <value>HoursWorkedLabel</value>
+  </data>
+  <data name="NextButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusLabel.Name" xml:space="preserve">
+    <value>SalesBonusLabel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SalesBonusTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="&gt;&gt;CalculateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HoursWorkedTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider.Name" xml:space="preserve">
+    <value>ErrorProvider</value>
+  </data>
+  <data name="&gt;&gt;EmployeeIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogoPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SalesBonusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LanguageGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="PrintButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FrenchRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HoursWorkedTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="EmployeeIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 383</value>
+  </data>
+  <data name="&gt;&gt;FrenchRadioButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;EnglishRadioButton.Parent" xml:space="preserve">
     <value>LanguageGroupBox</value>
   </data>
+  <data name="EmployeeNameTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;EnglishRadioButton.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="EmployeeNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="EmployeeNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 340</value>
-  </data>
-  <data name="EmployeeNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
-  </data>
-  <data name="EmployeeNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameTextBox.Name" xml:space="preserve">
-    <value>EmployeeNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameTextBox.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="EmployeeIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="EmployeeIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 383</value>
-  </data>
-  <data name="EmployeeIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
-  </data>
-  <data name="EmployeeIDTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDTextBox.Name" xml:space="preserve">
-    <value>EmployeeIDTextBox</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDTextBox.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 477</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
-  </data>
-  <data name="TotalMonthlySalesTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesTextBox.Name" xml:space="preserve">
-    <value>TotalMonthlySalesTextBox</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="SalesBonusTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="SalesBonusTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 526</value>
-  </data>
-  <data name="SalesBonusTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
-  </data>
-  <data name="SalesBonusTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusTextBox.Name" xml:space="preserve">
-    <value>SalesBonusTextBox</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusTextBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="EmployeeNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="EmployeeNameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="EmployeeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 346</value>
-  </data>
-  <data name="EmployeeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 20</value>
-  </data>
-  <data name="EmployeeNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="EmployeeNameLabel.Text" xml:space="preserve">
-    <value>Employee's Name:</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameLabel.Name" xml:space="preserve">
-    <value>EmployeeNameLabel</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EmployeeNameLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="EmployeeIDLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="EmployeeIDLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
+  <data name="FrenchRadioButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;HoursWorkedTextBox.Name" xml:space="preserve">
+    <value>HoursWorkedTextBox</value>
+  </data>
+  <data name="CalculateButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="EmployeeIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="FrenchRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 25</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalculateButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PrintButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 50</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EnglishRadioButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TotalMonthlySalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 480</value>
+  </data>
   <data name="EmployeeIDLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 386</value>
   </data>
-  <data name="EmployeeIDLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 20</value>
-  </data>
-  <data name="EmployeeIDLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="EmployeeIDLabel.Text" xml:space="preserve">
-    <value>Employee ID:</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDLabel.Name" xml:space="preserve">
-    <value>EmployeeIDLabel</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EmployeeIDLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;EmployeeIDTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;EmployeeIDLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="PrintButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 636</value>
   </data>
-  <data name="HoursWorkedLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="TotalMonthlySalesLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SalesBonusLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="HoursWorkedLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
+  <data name="&gt;&gt;EnglishRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="HoursWorkedLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 431</value>
+  <data name="&gt;&gt;EmployeeIDTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CalculateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 50</value>
   </data>
   <data name="HoursWorkedLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 20</value>
   </data>
-  <data name="HoursWorkedLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="SalesBonusTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="HoursWorkedLabel.Text" xml:space="preserve">
-    <value>Hours Worked:</value>
-  </data>
-  <data name="&gt;&gt;HoursWorkedLabel.Name" xml:space="preserve">
-    <value>HoursWorkedLabel</value>
-  </data>
-  <data name="&gt;&gt;HoursWorkedLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="NextButton.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;HoursWorkedLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EmployeeIDTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NextButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 636</value>
+  </data>
+  <data name="CalculateButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;HoursWorkedTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FrenchRadioButton.Name" xml:space="preserve">
+    <value>FrenchRadioButton</value>
+  </data>
+  <data name="FrenchRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LanguageGroupBox.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="CalculateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EmployeeIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MailOrder</value>
+  </data>
+  <data name="LanguageGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;EmployeeIDLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NextButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LanguageGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;EmployeeNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FrenchRadioButton.Parent" xml:space="preserve">
+    <value>LanguageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.Name" xml:space="preserve">
+    <value>PrintButton</value>
+  </data>
+  <data name="EmployeeNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;CalculateButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CalculateButton.Name" xml:space="preserve">
+    <value>CalculateButton</value>
+  </data>
+  <data name="EmployeeNameTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="EnglishRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 50</value>
+  </data>
+  <data name="LogoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="EmployeeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="EmployeeIDLabel.Text" xml:space="preserve">
+    <value>Employee ID:</value>
+  </data>
+  <data name="&gt;&gt;EmployeeIDLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmployeeIDTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SalesBonusTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmployeeNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SalesBonusTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 12</value>
+  </data>
+  <data name="EmployeeNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 340</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 477</value>
+  </data>
+  <data name="HoursWorkedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="HoursWorkedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 431</value>
+  </data>
+  <data name="EmployeeNameTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TotalMonthlySalesTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EnglishRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmployeeNameLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="HoursWorkedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EmployeeNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;HoursWorkedLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="TotalMonthlySalesLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="EmployeeNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LanguageGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SalesBonusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 529</value>
+  </data>
+  <data name="&gt;&gt;LanguageGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HoursWorkedTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NextButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SalesBonusTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="HoursWorkedLabel.Text" xml:space="preserve">
+    <value>Hours Worked:</value>
+  </data>
+  <data name="EmployeeNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="FrenchRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="SalesBonusTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="CalculateButton.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="EnglishRadioButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;HoursWorkedTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HoursWorkedTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EmployeeIDTextBox.Name" xml:space="preserve">
+    <value>EmployeeIDTextBox</value>
+  </data>
+  <data name="LanguageGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LanguageGroupBox.Name" xml:space="preserve">
+    <value>LanguageGroupBox</value>
+  </data>
+  <data name="PrintButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="EnglishRadioButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="HoursWorkedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NextButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SalesBonusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EmployeeIDLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PrintButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmployeeNameLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LanguageGroupBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NextButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmployeeIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LogoPictureBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CalculateButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmployeeIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EmployeeNameLabel.Text" xml:space="preserve">
+    <value>Employee's Name:</value>
+  </data>
+  <data name="TotalMonthlySalesLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CalculateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 636</value>
+  </data>
+  <data name="HoursWorkedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 428</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="PrintButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LanguageGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 238</value>
+  </data>
+  <data name="TotalMonthlySalesTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="EnglishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="LanguageGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EnglishRadioButton.Name" xml:space="preserve">
+    <value>EnglishRadioButton</value>
+  </data>
+  <data name="HoursWorkedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="EmployeeNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="LogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 220</value>
+  </data>
+  <data name="&gt;&gt;LogoPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LogoPictureBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FrenchRadioButton.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="LogoPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="NextButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;EmployeeIDLabel.Name" xml:space="preserve">
+    <value>EmployeeIDLabel</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>598, 698</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FrenchRadioButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;HoursWorkedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Name" xml:space="preserve">
+    <value>NextButton</value>
+  </data>
+  <data name="SalesBonusLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="EmployeeIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="SalesBonusLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;HoursWorkedTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmployeeNameLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EnglishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="SalesBonusTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 526</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusTextBox.Name" xml:space="preserve">
+    <value>SalesBonusTextBox</value>
+  </data>
+  <data name="SalesBonusLabel.Text" xml:space="preserve">
+    <value>Sales Bonus:</value>
+  </data>
+  <data name="&gt;&gt;TotalMonthlySalesLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;SalesBonusTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="HoursWorkedLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmployeeIDLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="TotalMonthlySalesLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
-  <data name="TotalMonthlySalesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 480</value>
-  </data>
-  <data name="TotalMonthlySalesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 20</value>
-  </data>
-  <data name="TotalMonthlySalesLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;EmployeeNameLabel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="TotalMonthlySalesLabel.Text" xml:space="preserve">
-    <value>Total Monthly Sales:</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesLabel.Name" xml:space="preserve">
-    <value>TotalMonthlySalesLabel</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TotalMonthlySalesLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="SalesBonusLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="SalesBonusLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="SalesBonusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 529</value>
-  </data>
-  <data name="SalesBonusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 20</value>
-  </data>
-  <data name="SalesBonusLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="SalesBonusLabel.Text" xml:space="preserve">
-    <value>Sales Bonus:</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusLabel.Name" xml:space="preserve">
-    <value>SalesBonusLabel</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SalesBonusLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="CalculateButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="CalculateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 636</value>
-  </data>
-  <data name="CalculateButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 50</value>
-  </data>
-  <data name="CalculateButton.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="CalculateButton.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;CalculateButton.Name" xml:space="preserve">
-    <value>CalculateButton</value>
-  </data>
-  <data name="&gt;&gt;CalculateButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CalculateButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;CalculateButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="PrintButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="PrintButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 636</value>
-  </data>
-  <data name="PrintButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 50</value>
-  </data>
-  <data name="PrintButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="PrintButton.Text" xml:space="preserve">
-    <value>Print</value>
-  </data>
-  <data name="&gt;&gt;PrintButton.Name" xml:space="preserve">
-    <value>PrintButton</value>
-  </data>
-  <data name="&gt;&gt;PrintButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PrintButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PrintButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="NextButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="NextButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 636</value>
-  </data>
-  <data name="NextButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 50</value>
-  </data>
-  <data name="NextButton.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="NextButton.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;NextButton.Name" xml:space="preserve">
-    <value>NextButton</value>
-  </data>
-  <data name="&gt;&gt;NextButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NextButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NextButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 12</value>
-  </data>
-  <data name="LogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 220</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LogoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="LogoPictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;LogoPictureBox.Name" xml:space="preserve">
-    <value>LogoPictureBox</value>
-  </data>
-  <data name="&gt;&gt;LogoPictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LogoPictureBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="EmployeeIDLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;LogoPictureBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="LogoPictureBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PrintButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PrintButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="HoursWorkedTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="HoursWorkedTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 428</value>
+  <data name="TotalMonthlySalesLabel.Text" xml:space="preserve">
+    <value>Total Monthly Sales:</value>
   </data>
-  <data name="HoursWorkedTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
+  <data name="SalesBonusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
-  <data name="HoursWorkedTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="EmployeeIDLabel.Error" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;HoursWorkedTextBox.Name" xml:space="preserve">
-    <value>HoursWorkedTextBox</value>
-  </data>
-  <data name="&gt;&gt;HoursWorkedTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HoursWorkedTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HoursWorkedTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="ErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr-CA</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>43</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>598, 698</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;ErrorProvider.Name" xml:space="preserve">
-    <value>ErrorProvider</value>
-  </data>
-  <data name="&gt;&gt;ErrorProvider.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MailOrder</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="ErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
