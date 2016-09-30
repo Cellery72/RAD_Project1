@@ -45,13 +45,13 @@ C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\Projec
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\Project1.pdb
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\bin\Debug\Project1.exe
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\bin\Debug\Project1.pdb
-C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\bin\Debug\en-CA\Project1.resources.dll
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\bin\Debug\fr-CA\Project1.resources.dll
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.resources
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
-C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.en-CA.resources
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.fr-CA.resources
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
-C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\en-CA\Project1.resources.dll
 C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\fr-CA\Project1.resources.dll
+C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\bin\Debug\aa\Project1.resources.dll
+C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\MailOrder.MailOrder.aa.resources
+C:\Users\Justin\Documents\GitHub\RAD_Project1\Project1\Project1\obj\Debug\aa\Project1.resources.dll

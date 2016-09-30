@@ -55,7 +55,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MailOrder.en-CA.resx">
+    <EmbeddedResource Include="MailOrder.aa.resx">
       <DependentUpon>MailOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MailOrder.fr-CA.resx">

@@ -23,7 +23,7 @@ namespace MailOrder
 
         // Event Handlers
         // --------------
-        
+
         // Button Event Handlers
         private void CalculateButton_Click(object sender, EventArgs e)
         {
@@ -41,10 +41,10 @@ namespace MailOrder
         private void PrintButton_Click(object sender, EventArgs e)
         {
             // Display a messagebox to show the form has been sent to the printer
-            MessageBox.Show("The form has been sent to the computer!","Print Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("The form has been sent to the computer!", "Print Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void NextButton_Click(object sender, EventArgs e)
-        {            
+        {
             if (_BoolFirstEntry)    // first time entering values, still haven't calculated once..
             {
                 ClearValues();  // clear all values + Total Monthly Sales
@@ -67,7 +67,7 @@ namespace MailOrder
             // Pass the language to the private function to change the language
             ChangeLanguage(language);
         }
-        
+
         // Validation Event Handlers
         private void HoursWorkedTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -81,7 +81,14 @@ namespace MailOrder
             MaskedTextBox _HoursWorkedTB = (MaskedTextBox)sender;
             int currentValue = 0;
             if (!String.IsNullOrEmpty(_HoursWorkedTB.Text))
-                currentValue = int.Parse(_HoursWorkedTB.Text);
+            {
+                // see if value fits in an int variable
+                bool truthy = int.TryParse(_HoursWorkedTB.Text, out currentValue);
+                if (!truthy)
+                {
+                    ErrorProvider.SetError(_HoursWorkedTB, "Must be a valid value between 0-160");
+                }
+            }
 
             // assert value is valid
             if (currentValue > 160 || currentValue < 0)
@@ -113,7 +120,7 @@ namespace MailOrder
                     currentValue = double.Parse(_TotalMonthlySalesTB.Text);
                 ErrorProvider.Clear();
             }
-            catch(FormatException ex)
+            catch (FormatException ex)
             {
                 Console.WriteLine(ex);
                 e.Cancel = true;
@@ -121,7 +128,7 @@ namespace MailOrder
                 ErrorProvider.SetError(_TotalMonthlySalesTB, "Must be a valid numeric value");
             }
         }
-        
+
 
         // private methods 
         // ---------------
@@ -138,7 +145,7 @@ namespace MailOrder
                 resources.ApplyResources(c, c.Name, new CultureInfo(lang));
             }
         }
-        
+
         /// <summary>
         /// Calculates the Sales Bonus value based on the textbox values.
         /// </summary>
@@ -155,7 +162,7 @@ namespace MailOrder
                 returnValue = (hoursValue * monthSalesValue);
                 return returnValue;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 // log the error and response with -1;
                 Console.WriteLine(ex);
@@ -163,7 +170,7 @@ namespace MailOrder
             }
 
         }
-        
+
         /// <summary>
         /// Clear all the values in the appropriate textboxes.
         /// </summary>
